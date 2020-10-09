@@ -1,0 +1,1 @@
+Exercises that I am creating in my beautiful path to learn how to develop in Business Central <3.
