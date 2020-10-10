@@ -1,0 +1,1 @@
+fc "C:\Temp\1\*.txt" "C:\Temp\2\*.txt" > "C:\Temp\result.txt"
