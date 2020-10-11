@@ -1,0 +1,17 @@
+The exercises I do have no functional logic or usefulness. I just like to play with code.
+
+Explanation of the exercise:
+In this test I will create a process that will increase the client's debt by 5% per iteration. This will be launched from a client list action and you will have a faxbox to visualize them. 
+
+You will have another action to visualize all the clients to which you have added increases.
+
+Translated with www.DeepL.com/Translator (free version)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Los ejercicio que hago no tienen ninguna lógica funcional ni utilidad. Solo me gusta jugar sobre código.
+
+Explicación del ejercicio:
+En esta prueba creare un proceso que incremente la deuda del cliente en 5% por iteración esto se lanzara desde un a acción en la lista de clientes y tendrá un faxbox para visualizarlos. 
+
+Tendrá otra acción para visualizar todos los clientes a los cuales se ha agregado incrementos.

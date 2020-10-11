@@ -1,0 +1,27 @@
+{
+  "id": "9dc06bc5-3bcb-4a08-9faf-0d83b5f0268f",
+  "name": "DictionaryAndList",
+  "publisher": "ANovoa",
+  "version": "1.0.0.0",
+  "brief": "Creating sample dictionaries and lists",
+  "description": "Creating sample dictionaries and lists",
+  "privacyStatement": "https://github.com/Saycoron",
+  "EULA": "https://github.com/Saycoron",
+  "help": "https://github.com/Saycoron",
+  "url": "https://github.com/Saycoron",
+  "logo": "./src/logo/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Dictionary.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0",
+  "features": ["TranslationFile","NoImplicitWith"]
+}
