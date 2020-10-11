@@ -1,0 +1,27 @@
+{
+  "id": "be94ab69-24ab-4ef1-88a1-bcb389e1ed4c",
+  "name": "Notification",
+  "publisher": "ANovoa",
+  "version": "1.0.0.0",
+  "brief": "Sample notification in Business Central",
+  "description": "Create a sample notification in Business Central",
+  "privacyStatement": "https://github.com/Saycoron",
+  "EULA": "https://github.com/Saycoron",
+  "help": "https://github.com/Saycoron",
+  "url": "https://github.com/Saycoron",
+  "logo": "./src/logo/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Notification.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0",
+  "features": ["TranslationFile","NoImplicitWith"]
+}

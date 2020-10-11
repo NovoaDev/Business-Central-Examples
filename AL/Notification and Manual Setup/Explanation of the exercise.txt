@@ -1,0 +1,19 @@
+The exercises I do have no functional logic or usefulness. I just like to play on code.
+
+In this test I make an example of notification and manual setup.
+
+Explanation of the exercise:
+We will check if there is any client that does not have indicated the field vat registration No. in case of getting some show the notification, which allows you to open a page of manual configuration showing only customers who have not filled this field.
+
+We can also enter the manual configuration section within Business Central.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Los ejercicio que hago no tienen ninguna lógica funcional ni utilidad. Solo me gusta jugar sobre código.
+
+En esta prueba hago un ejemplo de notificación y configuración manual.
+
+Explicación del ejercicio:
+Verificaremos si existe algún cliente que no tenga indicado el campo vat registration No. en caso de conseguir alguno mostrar la notificación, la cual permita abrir una pagina de configuración manual mostrando solo los clientes que no tengan relleno este campo.
+
+También podremos entrar por el apartado de configuración manual dentro de Business Central.
