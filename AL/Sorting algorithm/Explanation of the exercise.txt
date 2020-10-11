@@ -1,0 +1,23 @@
+The exercises I do do not have any functional logic or usefulness. I just like to play on code.
+
+In this test I will add sorting algorithms to Business Central's code, personally in the little experience I have programming in BC I have not seen them used yet, I think they are not necessary.
+
+Anyway I wanted to try it :)
+
+Explanation of the exercise:
+We will have a page of type card where we will enter different decimal amounts, we will select the algorithm with which we want to order and applying the action to order it will show the numbers from minor to greater.
+
+The result will be the same using each of the example algorithms only internally it will solve it a little different. 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Los ejercicio que hago no tienen ninguna logica funcional ni utilidad. Solo me gusta jugar sobre codigo.
+
+En esta prueba agregare algoritmos de ordenamiento a codigo de Business Central, personalmente en la poca experiencia que tengo programando en BC todavia no he visto que se usen, creo que no son necesarios.
+
+De todas formas queria probarlo :)
+
+Explicacion del ejercicio:
+Tendremos una pagina de tipo ficha donde ingresaremos diferentes cantidades decimales, seleccionaremos el algoritmo con el que queramos ordenar y aplicando la accion ordenar mostrara los numeros de menor a mayor.
+
+El resultado sera igual usando cada uno de los algoritmos de ejemplo solo que internamente lo resolvera un poco diferente. 

@@ -1,0 +1,11 @@
+{
+    "name": "ruleset",
+    "description": "Customization of the analyzer to exclude errors and warning appsourcodecop",
+    "rules": [
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "Exclude error appsource numbering"
+        }
+    ]
+}
