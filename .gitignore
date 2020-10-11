@@ -1,0 +1,12 @@
+AL/*/.vscode/rad.json
+AL/*/.vscode/launch.json
+
+AL/*/.app
+AL/*/.alpackages/*
+AL/*/Translations/*
+AL/*/.snapshots/*
+AL/*/.vscode/.altemplates/*
+AL/*/.vscode/.alcache/*
+
+
+
