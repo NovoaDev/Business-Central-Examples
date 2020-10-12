@@ -1,0 +1,2 @@
+@ApiKey=key
+GET https://api.email-validator.net/api/verify?EmailAddress=antonio.novoa@outlook.es&APIKey={{ApiKey}}

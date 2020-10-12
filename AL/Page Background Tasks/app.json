@@ -1,0 +1,27 @@
+{
+  "id": "c0431a02-7252-4f16-b751-6969e467d6b2",
+  "name": "PageBackgroundTaskAndEmailValid",
+  "publisher": "ANovoa",
+  "version": "1.0.0.0",
+  "brief": "Page Background Tasks and Google Currency Converter",
+  "description": "Use Google Currency Converter's api for background Tasks Page example",
+  "privacyStatement": "https://github.com/Saycoron",
+  "EULA": "https://github.com/Saycoron",
+  "help": "https://github.com/Saycoron",
+  "url": "https://github.com/Saycoron",
+  "logo": "./src/logo/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://PageBackgroundTasksGoogleCurrencyConverter.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0",
+  "features": ["TranslationFile","NoImplicitWith"]
+}
