@@ -1,0 +1,29 @@
+### AuthBasica
+@Container = shippingapi
+@Company = CRONUS%20Espa%C3%B1a%20S.A.
+@Entity = GLSWS
+@User = User
+@WSPass = 1Wx9w0iE+OOMzmmlvAnVfRJ9IxJeHwAHVco1zTs6FjE=
+
+@CodeunitWSName = MWROutboundAction
+@ActionName = newshipping
+
+POST http://{{Container}}:7048/BC/ODataV4/{{CodeunitWSName}}_{{ActionName}}?Company={{Company}}
+content-type: application/json
+Authorization: Basic {{User}} {{WSPass}}
+
+{ "custNo": "01121212" }
+
+
+### Get one MRW Shippings
+@ActionName3 = getshipments
+POST http://{{Container}}:7048/BC/ODataV4/{{CodeunitWSName}}_{{ActionName3}}?Company={{Company}}
+content-type: application/json
+Authorization: Basic {{User}} {{WSPass}}
+
+{ "trankingNumber": "MRW14000" }
+
+### 
+
+
+

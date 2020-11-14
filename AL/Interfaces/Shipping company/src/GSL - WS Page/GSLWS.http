@@ -1,0 +1,24 @@
+### AuthBasica
+@Container = shippingapi
+@Company = CRONUS%20Espa%C3%B1a%20S.A.
+@PageEntity = GLSWS
+@User = User
+@WSPass = 1Wx9w0iE+OOMzmmlvAnVfRJ9IxJeHwAHVco1zTs6FjE=
+
+###-------------------------------- Obtener todos los reg
+GET http://{{Container}}:7048/BC/ODataV4/Company('{{Company}}')/{{PageEntity}}
+Authorization: Basic {{User}} {{WSPass}}
+
+###-------------------------------- Obtener un solo reg 
+@REC = 6a8ecc71-7110-eb11-b3ec-aac532fab687
+GET http://{{Container}}:7048/BC/ODataV4/Company('{{Company}}')/{{PageEntity}}({{REC}})
+Authorization: Basic {{User}} {{WSPass}}
+
+###-------------------------------- Insertar datos
+POST http://{{Container}}:7048/BC/ODataV4/Company('{{Company}}')/{{PageEntity}}
+Authorization: Basic {{User}} {{WSPass}}
+content-type: application/json
+
+{
+    "customer": "01454545"
+}

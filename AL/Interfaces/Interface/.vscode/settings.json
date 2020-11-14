@@ -1,0 +1,18 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${AppSourceCop}",
+        "${CodeCop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "al.ruleSetPath": "./.vscode/ruleset.json",
+    "CRS.AlSubFolderName": "None",    
+    "CRS.OnSaveAlFileAction": "DoNothing",
+    "CRS.ExtensionObjectNamePattern": "<Prefix><BaseName>",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.ObjectNamePrefix": "ANJ05 ",
+
+    "bdev-al-xml-doc.checkProcedureDocumentation":false
+}

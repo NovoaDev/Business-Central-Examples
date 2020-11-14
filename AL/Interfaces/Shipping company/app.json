@@ -1,0 +1,27 @@
+{
+  "id": "d6be60fd-f93a-4627-b46f-a1b482a78b1c",
+  "name": "Shipping company",
+  "publisher": "ANovoa",
+  "version": "1.0.0.0",
+  "brief": "Interface that when registering an invoice sends a request to the shipping company.",
+  "description": "Interface that when registering an invoice sends a request to the shipping company.",
+  "privacyStatement": "https://github.com/Saycoron",
+  "EULA": "https://github.com/Saycoron",
+  "help": "https://github.com/Saycoron",
+  "url": "https://github.com/Saycoron",
+  "logo": "./src/logo/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Shippingcompany.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0",
+  "features": ["TranslationFile","NoImplicitWith"]
+}

@@ -1,0 +1,35 @@
+### AuthBasica
+@Container = shippingapi
+@APIPublisher = anj
+@APIGroup = courier
+@APIVersion = beta
+@CompaniesID = 0b0e78c8-b1fd-ea11-bb71-000d3a492075
+@EntityName = dhl
+@User = USER
+@WSPass = 1Wx9w0iE+OOMzmmlvAnVfRJ9IxJeHwAHVco1zTs6FjE=
+
+###-------------------------------- Obtener todas las APIs BC
+GET http://{{Container}}:7048/BC/api/{{APIPublisher}}/{{APIGroup}}/{{APIVersion}}
+Authorization: Basic {{User}} {{WSPass}}
+
+###-------------------------------- Obtener empresas
+GET http://{{Container}}:7048/BC/api/{{APIPublisher}}/{{APIGroup}}/{{APIVersion}}/companies
+Authorization: Basic {{User}} {{WSPass}}
+
+###-------------------------------- Obtener todos los reg
+GET http://{{Container}}:7048/BC/api/{{APIPublisher}}/{{APIGroup}}/{{APIVersion}}/companies({{CompaniesID}})/{{EntityName}}
+Authorization: Basic {{User}} {{WSPass}}
+
+###-------------------------------- Obtener un solo reg
+@REC = a5f29d6b-7110-eb11-b3ec-aac532fab687
+GET http://{{Container}}:7048/BC/api/{{APIPublisher}}/{{APIGroup}}/{{APIVersion}}/companies({{CompaniesID}})/{{EntityName}}({{REC}})
+Authorization: Basic {{User}} {{WSPass}}
+
+###-------------------------------- Insertar datos
+POST http://{{Container}}:7048/BC/api/{{APIPublisher}}/{{APIGroup}}/{{APIVersion}}/companies({{CompaniesID}})/{{EntityName}}
+Authorization: Basic {{User}} {{WSPass}}
+content-type: application/json
+
+{
+  "customer": "01121212"
+}
